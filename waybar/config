@@ -1,0 +1,32 @@
+{
+    "include": "~/.config/waybar/modules",
+    "layer": "top",
+    "position": "top",
+    "spacing": 2,
+    "margin": "0",
+    "margin-left": 0,
+    "margin-right": 0,
+    "margin-top": 0,
+    "margin-bottom": 0,
+    "fixed-center": true,
+    "mode": "dock",
+    "modules-left": [
+        "custom/menu",
+        "wlr/workspaces",
+    ],
+
+    "modules-center": [
+        "tray",
+        "gamemode",
+    ],
+
+    "modules-right": [
+        "cpu",
+        "memory",
+        "network",
+        "pulseaudio",
+        "battery",
+        "clock",
+    ],
+}
+
